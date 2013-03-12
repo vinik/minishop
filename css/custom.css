@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+
+.msg {padding:15px 15px 15px 60px; font-size:120%;}
+.msg a:hover {text-decoration:none;}
+.msg.msg-warning {background:url("../img/ico-warning.png") 5px 50% no-repeat;}
+.msg.msg-ok {background:url("../img/ico-ok.png") 5px 50% no-repeat;}
+.msg.msg-error {background:url("../img/ico-error.png") 5px 50% no-repeat;}
+
+.msg a {color:#000;}
+.msg a:hover {background-color:#000; color:#FFF;}
+.msg.msg-warning {border:1px solid #DDA; background-color:#FFA;}
+.msg.msg-ok {border:1px solid #ADD42C; background-color:#E2F6A4;}
+.msg.msg-error {border:1px solid #FEBE5F; background-color:#FFE1B5;}

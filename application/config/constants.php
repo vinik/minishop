@@ -37,5 +37,20 @@ define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
 
+
+
+
+
+
+
+define('MAX_SEARCH_RESULTS', 1000);
+define('PAGINATION_SIZE', 500);
+
+define('MESSAGE_TYPE_SUCCESS', 'success');
+define('MESSAGE_TYPE_ERROR', 'error');
+define('MESSAGE_TYPE_WARNING', 'warning');
+
+
+
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
